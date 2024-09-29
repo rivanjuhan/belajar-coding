@@ -1,29 +1,18 @@
-// const btnElement = document.getElementById('btn')
-// btnElement.addEventListener('click',triggerbtn)
+const inputElement1 = document.getElementById('input1')
+const inputElement2 = document.getElementById('input2')
+const divElement = document.getElementById('hasil')
+const btnElement = document.getElementById('submit')
 
-// function triggerbtn(){
-//     btnElement.innerHTML = "ko berubah"
-// }
+btnElement.addEventListener('click',function(){
+    
+    const angkaPertama =inputElement1.value
+    console.log("angkapertama =>",angkaPertama)
+    const angkakedua =inputElement2.value
+    console.log("angkakedua =>",angkakedua)
+    const input = parseInt(angkaPertama) + parseInt(angkakedua)
 
-const countElement = document.getElementById('count')
-
-const btnMengurangi = document.getElementById('kurang-angka')
-const btnMenambahi = document.getElementById('tambah-angka')
-
-btnMenambahi.addEventListener('click',function(){
-    //ambil data saat ini//
-    let currentNumber = countElement.textContent
-    //proses kalkulasi data//
-    currentNumber = parseInt(currentNumber) +3
-    //ubah data yang sudah dikalkulasi//
-    countElement.textContent = currentNumber
-
+    divElement.textContent=input
+    
     
 })
-btnMengurangi.addEventListener('click',function(){
-    let currentNumber = countElement.textContent
 
-    currentNumber = parseInt(currentNumber) -2
-
-    countElement.textContent = currentNumber
-})
