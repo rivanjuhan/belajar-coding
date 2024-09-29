@@ -16,7 +16,7 @@ btnMenambahi.addEventListener('click',function(){
     //proses kalkulasi data//
     currentNumber = parseInt(currentNumber) +3
     //ubah data yang sudah dikalkulasi//
-    countElement.textContent = currentNumber
+    countElement.textContent = currentNumber 
 
     
 })
