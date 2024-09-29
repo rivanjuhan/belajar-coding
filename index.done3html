@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="flex-container">
+        <div class="container-item">1</div>
+        <div class="container-item">2</div>
+        <div class="container-item">3</div>
+        <div class="container-item">4</div>
+        <div class="container-item">5</div>
+    </div> -->
+    <div class="navbar">
+        <div class="navbar-title">     
+            Juhan
+        </div>
+    <div class="navbar-btn-container">
+        <div>Home</div>
+        <div>Our Package</div>
+        <div>Call us</div>
+    </div>
+    </div>
+
+    <div class="content">
+    <h1 style="text-align: center;">Your Trusted Travel Agent's</h1>
+    <h3 class="item"> your happiness is our happiness</h3>
+    <div class="container-content">
+        <div class="main-content">1</div>
+        <div class="contact-content">2</div>
+    </div>
+    </div>
+</body>
+</html>

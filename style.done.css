@@ -1,0 +1,41 @@
+.bgweb{
+    background-color: yellowgreen;
+}
+p{
+    color: green;
+}
+.green{
+    color: blueviolet;
+}
+.bigfont{
+    font-size: 30px;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th{
+    padding: 8px;
+    background-color: #50B498;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.table td{
+    background-image: url(./bg\ hitam\ biu.png);
+    /* background-color: #80AF81; */
+    color: #ffffff;
+}
+.my-table{
+    width: 100%;
+}
+.my-table th{
+    background-color: aqua;
+    padding: 8px;
+}
+.my-table td{
+    background-color: orange;
+    color: #ffffff;
+    
+}
