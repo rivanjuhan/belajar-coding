@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Belajar JS</title>
+</head>
+<body>
+    <!-- panggil js melalui inline -->
+     <button onclick="alert('A');alert('B');alert('C')">clik melalui inline</button>
+    <!-- panggil js menggunakan internal -->
+    <button onclick="buatAlert('kamu belum depo')">ON CLICK INTERNAL</button>
+    <!-- panggil Js menggunakan External -->
+    <button onclic`k="cobainExternal()">clik melalui External</button>
+
+</body>
+<!-- internal js menggunakan tag <scrip> -->
+<script>
+    <!-- kita buat fungsi dulu -->
+    function buatAlert(){
+        alert('kalo takut polisi gausah tawuran');
+        alert('makanya gausah sok jagoan cil');
+        alert('kasian emak lu udh ngempanin lu');
+    }
+</script>
+<!-- panggil External JS -->
+ <script src="./script.js"></script>
+</html>
