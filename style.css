@@ -1,0 +1,40 @@
+
+html{
+    height: 100%;
+    width: 100%; 
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.judul{
+    text-shadow: 1px 1px;
+    text-decoration-line: underline;
+}
+.card {
+    background-color:aqua;
+    padding: 16px;
+    margin : unset !important;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.input{
+    background-color:bisque ;
+    border-style: double;
+}
+.tombol {
+    background-color: rgb(200, 245, 75);
+    border-style: dashed;
+    
+}
+.qty {
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 900
+}
